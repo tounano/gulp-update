@@ -87,7 +87,7 @@ function mapDiffToCommands(diff) {
 function mapNewToCmds(diff) {
   if (!diff['$new']) return [];
 
-  return [createCommand('npm',['update'])];
+  return [createCommand('npm',['install'])];
 }
 
 function mapDependenciesToCmds(deps, mappers) {

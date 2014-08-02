@@ -1,6 +1,6 @@
 # gulp-update
 
-Fast Npm update when package.json changes
+Incremental Npm update when package.json changes
 
 This is a stateful stream. It never ends, because it should keep track of the `diffs` on package.json.
 
@@ -8,7 +8,7 @@ Make sure to create only one instance of it in your gulpfile.js.
 
 ## Under the hood
 
-1. The first time it gets a package.json file, it will run an `npm update` command.
+1. The first time it gets a package.json file, it will run an `npm install` command.
 2. Afterwards, it will run install/remove only the new packages.
 
 It can keep track of several package.json files.
