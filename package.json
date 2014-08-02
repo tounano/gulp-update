@@ -1,0 +1,32 @@
+{
+  "name": "gulp-update",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "description": "Fast Npm update when package.json changes.",
+  "homepage": "https://github.com/tounano/gulp-update/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "npm",
+    "npm update"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/gulp-update"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "through2": "latest",
+    "hdiff": "latest",
+    "underscore": "latest",
+    "which": "latest",
+    "gulp-util": "latest"
+  }
+}
