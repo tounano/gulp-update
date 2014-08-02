@@ -131,7 +131,8 @@ function mapUpdateToCmd(diff, pkg) {
 }
 
 function mapDevCmds(cmd) {
-  cmd[1].push('--save-dev');
+  if (cmd.length)
+    cmd[1].push('--save-dev');
   return cmd;
 }
 

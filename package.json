@@ -1,6 +1,6 @@
 {
   "name": "gulp-update",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "description": "Fast Npm update when package.json changes.",
   "homepage": "https://github.com/tounano/gulp-update/",
