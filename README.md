@@ -27,7 +27,7 @@ Simply make sure that the stream the is being piped to `gulp-update` won't end.
 var gulp  = require('gulp');
 
 gulp.task('npmUpdate', function () {
-  var update = require('gulp-update)();
+  var update = require('gulp-update')();
 
   gulp.watch('./package.json').on('change', function (file) {
     update.write(file);
